@@ -19,9 +19,7 @@ async fn api() -> String {
 
 #[get("/<file..>")]
 async fn index(file: PathBuf) -> Option<NamedFile> {
-    NamedFile::open(Path::new("public/static/").join(file))
-        .await
-        .ok()
+    NamedFile::open(Path::new("public/").join(file)).await.ok()
 }
 
 #[launch]
