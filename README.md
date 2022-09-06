@@ -8,4 +8,4 @@ Then add this to the .toml file:
 
 Where &nbsp;*YOUR_API_KEY*&nbsp; is your api key.
 
-To start up the server simply navigate to the projekt root and run `cargo run`. Then navigate to `localhost:8000/index.html` in your favorite browser to the see the project in action. 
+To start up the server simply navigate to the project root and run `cargo run`. Then navigate to `localhost:8000/index.html` in your favorite browser to the see the project in action. 
